@@ -1,0 +1,52 @@
+nav li {
+    margin: 8px 12px;
+}
+
+nav li a {
+    font-size: 0.7rem;
+    padding: 5px 12px;
+}
+
+#left {
+    font-size: 1.5rem;
+}
+
+#right img {
+    width: 60%;
+}
+
+#one {
+    margin: 10px 0px;
+}
+
+#second {
+    flex-direction: row;
+    flex-wrap: wrap;
+    overflow: auto;
+    justify-content: center;
+}
+
+#pic img {
+    width: 40%;
+    display: block;
+    margin: auto;
+}
+
+#pic {
+    margin: 60px auto;
+}
+
+#list li a {
+    font-size: 0.7rem;
+    margin: 8px 15px;
+}
+
+#copyRight {
+    font-size: 0.7rem;
+}
+h2 {
+    font-size: 1.1rem;
+}
+.heading span {
+    font-size: 0.7rem;
+}

@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salman's-Protfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style1.css" media="(max-width: 769px)">
+    <link rel="stylesheet" href="style2.css" media="(max-width: 414px)">
+
+</head>
+
+<body>
+    <header>
+        <nav>
+            <li><a href="#">Home</a></li>
+            <li><a href="#secondSection">About Me</a></li>
+            <li><a href="#thirdSection">Skills & More</a></li>
+            <li><a href="#footer">Contact Me</a></li>
+        </nav>
+    </header>
+    <main>
+
+        <section id="firstSection">
+            <div id="left" class="width">
+                Hello Everyone, I Am <sapn class="textColor">Salman</sapn>
+                <div>
+                    I Am A Passionate
+                </div>
+                <span id="element" class="textColor"></span>
+            </div>
+            <div id="right" class="width">
+                <img src="https://static-00.iconduck.com/assets.00/web-developer-illustration-503x512-mega3xxj.png"
+                    alt="loading error">
+            </div>
+        </section>
+        <hr>
+        <section id="secondSection">
+            <div class="heading">
+                <h2>About Me</h2>
+                <span>A Description about me</span>
+            </div>
+            <div id="second">
+
+                <div id="pic">
+                    <img src="logo.png" alt="error loading">
+                </div>
+                <div id="desc">
+                    <h2>Hi, I Am Salman</h2>
+                    <p> I am a currently student of MCA and also a versatile developer with experience in a range of programming languages and tools, including HTML, CSS, JavaScript, Node.js, MongoDB,, C/C++, and SQL, I bring a unique perspective to software development. I am skilled in both front-end and back-end development, and am able to build scalable, high-performance web applications from start to finish. Additionally, I have a strong background in UNIX shell scripting and am always eager to learn new technologies and techniques. I am committed to delivering exceptional results and am passionate about using technology to make a positive impact on the world</p>
+                </div>
+            </div>
+            </div>
+            <hr id="one">
+            <section id="thirdSection">
+                <div class="heading">
+                    <h2>Skills & More</h2>
+                    <span>More About Me </span>
+                </div>
+                <div id="container">
+                    <div class="miniCon">
+                        <h3>Education</h3>
+                        <ul>
+                            <li>High School & Intermediate
+                                <div> U.P Board</div>
+                                <div>(2017-2019)</div>
+                            </li>
+                            <li>B.sc(Computer Science)
+                                <div> MJPRU</div>
+                                <div>(2019-2022)</div>
+                            </li>
+                            <li>MCA
+                                <div> Bhagwant Institute of Technology</div>
+                                <div>(Current)</div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="miniCon">
+                        <h3>Skills</h3>
+                        <ul>
+                            <li>C/C++</li>
+                            <li>SQL</li>
+                            <li>HTML/CSS & Java Script</li>
+                            <li>MongoDB</li>
+                            <li>Shell Scripting</li>
+                            <li>Some Node.js</li>
+                        </ul>
+                    </div>
+                    <div class="miniCon">
+                        <h3>Projects & Certificates</h3>
+                        <ul>
+                            <h4>Projects</h4>
+                            <li>Creating a Fully Responsive Website</li>
+                            <li>Cerating a Dance Website </li>
+                            <li>Making a Personal Protfolio</li>
+                            <h4>Certificates</h4>
+                            <li>HTML,CSS,Js Certificate From (Udemy)</li>
+                            <li>Intro To Cyber Security From (CISCO)</li>
+                            <li>Intro To Data Analysis From (CISCO)</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            <hr>
+    </main>
+    <footer id="footer">
+        <div class="heading" id="footHead">
+            <h2>Contact Me</h2>
+            <!-- <span>I am Available on</span> -->
+        </div>
+        <div class="centerFoot">
+            <a href="https://m.facebook.com/salman.mansoori.52056223" target="_blank">
+                <i class="fa-brands fa-facebook"></i>
+            </a>
+            <a href="https://www.instagram.com/salman_qadeer_/" target="_blank">
+                <i class="fa-brands fa-instagram"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/salman-mansoori-28a46a25b" target="_blank">
+                <i class="fa-brands fa-linkedin-in"></i>
+            </a>
+            <a href="https://mail.google.com/mail/u/0/#inbox" target="_blank">
+                <i class="fa-solid fa-envelope"></i>
+            </a>
+        </div>
+        <div id="list">
+
+            <ul>
+                <li><a href="#firstSection">Home</a></li>
+                <li><a href="#secondSection">About Me</a></li>
+                <li><a href="#thirdSection">Skills & More</a></li>
+                <li><a href="#footer">Contact Me</a></li>
+            </ul>
+        </div>
+        <p id="copyRight">
+            All Copywrite Right Reseverd @ 2023
+        </p>
+    </footer>
+</body>
+<script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+<script>
+    var typed = new Typed('#element', {
+        strings: ['Web Devloper', 'Full Stack Devloper', 'SQL Devloper'],
+        typeSpeed: 125,
+    });
+</script>
+
+</html>
